@@ -1,0 +1,146 @@
+body {
+    background-image: url("./bg_free_copyright.jpg");
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    font-size: 1.5rem;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.container {
+    display: flex;
+    gap: 12%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.title {
+    flex-direction: column;
+}
+
+.text {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.1% 3%;
+    margin: 1%;
+}
+
+.lower {
+    position: relative;
+    left: 10%;
+}
+
+.container.superior-notifications {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: auto;
+    margin: 5%;
+    position: relative;
+}
+
+.join-us {
+    flex: 0.5;
+    display: inline-block;
+    border: 2px solid black;
+    height: fit-content;
+    width: 90%;
+    background-color: white;
+    color: #3E299B;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.pos-available {
+    flex: 0.5;
+    display: inline-block;
+    height: fit-content;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #997A8A;
+    color: white;
+    /* margin-top: 10% */
+}
+
+.container.inferior-notifications {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: auto;
+    margin: 5%;
+}
+
+.apply-now {
+    flex: 0.5;
+    height: fit-content;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #FEEDEB;
+}
+
+#centered {
+    position: relative;
+    top: 20%;
+}
+
+.contacts {
+    flex: 0.5;
+    height: 40%;
+    width: 90%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#star-one {
+    height: 100px;
+    width: auto;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        margin: 0.1%;
+        padding: 0.1% 0.1%;
+    }
+
+    p {
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+
+    li {
+        font-size: 0.9rem;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    h6 {
+        font-size: 0.9rem;
+        margin: 5%;
+    }
+    
+}

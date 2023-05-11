@@ -102,11 +102,6 @@ li {
     background-color: #FEEDEB;
 }
 
-#centered {
-    position: relative;
-    top: 20%;
-}
-
 .contacts {
     flex: 0.5;
     height: 40%;

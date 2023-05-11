@@ -1,6 +1,7 @@
 body {
     background-image: url("./bg_free_copyright.jpg");
     font-family: 'Love Ya Like A Sister', cursive;
+    white-space: nowrap;
 }
 
 h1 {
